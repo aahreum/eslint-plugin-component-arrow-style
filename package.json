@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "eslint-custom-rule-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eslint.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint test/test.js",
+    "lint:fix": "eslint test/test.js --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/eslint-parser": "^7.28.4",
+    "@babel/preset-react": "^7.27.1",
+    "eslint": "^9.33.0",
+    "eslint-plugin-component-arrow-style": "file:eslint-plugin-component-arrow-style"
+  }
+}
