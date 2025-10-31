@@ -55,3 +55,6 @@ const sum = () => 1 + 2;
 ## 5. 라이선스
 
 [ISC](LICENSE)
+
+## 6. 작업과정&회고
+https://cocoding420.tistory.com/102
